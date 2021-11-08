@@ -1,8 +1,10 @@
-var regex = /Drake/g;
-var newTxt = document.getElementsByTagName('html')[0].innerText.replaceAll(regex, 'Male Duck');
-console.log(newTxt);
-document.getElementsByTagName('html')[0].innerText = newTxt;
+//var regex = /Drake/g;
+//var newTxt = document.getElementsByTagName('html')[0].innerText.replaceAll(regex, 'Male Duck');
+//console.log(newTxt);
+//document.getElementsByTagName('html')[0].innerText = newTxt;
 
+
+alert("hi");
 
 
 
