@@ -6,7 +6,16 @@ document.getElementsByTagName('html')[0].innerText = newTxt;
 
 alert("hi");
 
+function sum(num){
+    
+    if(num==0){
+        return 0;
+    } else if(num>0){
+        return num + sum(num-1);
+    }
+}
 
+console.log(sum(5));
 
 /*
 var text = "In short, everyone likes Drake. Drake’s biggest success has been to Drake’s success later o";
